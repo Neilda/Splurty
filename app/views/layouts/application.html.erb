@@ -30,7 +30,19 @@
 
 	<br class="clear" />
 
-<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div>
 
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "I need more convincing.", "#", :class => 'next-quote' %>
+			</div>
+			<div class="col-xs-6 footer-blurb">
+				Proudly made somewhere around the world by <a href="http://www.neildapacquing.com">Neilda.</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

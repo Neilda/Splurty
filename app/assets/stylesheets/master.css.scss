@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Oswald);
+
+
 .clear {
 	clear:both;
 }
@@ -36,6 +39,8 @@
 	color:black;
 	font-size: 25px;
 	border-bottom: 1px solid #dfdfdf;
+    font-family: 'Droid Serif', serif;
+    font-weight: bold;
 }
 
 header {
@@ -44,4 +49,17 @@ header {
 
 hr {
 	clear:both;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-family: 'Droid Serif', serif;
+    font-style: italic;
+	font-weight: 600;
+	letter-spacing: -1.5px;
 }
